@@ -10,7 +10,8 @@ html, body{
     width: 100%;
 }
 
-* {    
+* {  
+  text-rendering: optimizeSpeed;  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,7 +29,7 @@ nav {
   background-color: #333;
   width: 100%;  
   justify-content: flex-end; 
-  z-index: 2;
+  z-index: 3;
 }
 
 .icon {
@@ -37,12 +38,15 @@ nav {
 }
 
 .nav-parent {
+  width: 100%;
+  position: absolute;
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-.nav-links {
+.nav-items {
+  position: fixed;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.808);
@@ -54,12 +58,14 @@ nav {
   list-style: none;
   transform: translateY(-100%);
   transition: all 0.6s;
+  z-index: 2;
 }
 
-.nav-links.active {
+.nav-items.active {
   transform: translateY(0px);
 }
 
+/* Add a grey background color on mouse-over */
 nav .icon:hover {
     color: rgb(194, 188, 188);
     cursor: pointer;
@@ -74,11 +80,27 @@ nav .icon:hover {
 }
 
 .nav-parent ul a:hover {
-  font-size: 3rem;
+  font-size: 2.3rem;
 }
 
+.all-con{
+  display: grid;
+  padding: 0;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-items > img{
+  height: 50px;
+  display: none;
+}
+
+
 @media (min-width: 600px){
-    .nav-links {
+    .nav-items {
       transform: translateY(0px);
       height: fit-content;
       flex-direction: row;    }   
@@ -89,9 +111,21 @@ nav .icon:hover {
       display: none;
     }  
 
-    .nav-links{
-      justify-content: space-around;
-      padding: 10px;
+    .nav-items{
+      justify-content: space-between;
+    }
+
+    .nav-items > img{
+      display: initial;
+      margin-left: 100px;
     }
     
+    .nav-links {
+      flex-direction: row;
+      justify-content: space-between;
+      width: 50%;
+      margin-right: 100px;
+    }
+
+
 }

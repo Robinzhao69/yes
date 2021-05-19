@@ -1,12 +1,13 @@
 let navButton = document.querySelector(".icon")
-const links = document.querySelector(".nav-links");
+const items = document.querySelector(".nav-items");
 let state = false;
 
 
 navButton.addEventListener("click", () => {
-  if(links.className === "nav-links") {
-    links.className = "nav-links active"
+  if(items.className === "nav-items") {
+    items.className = "nav-items active"
+    console.log("yes");
   } else {
-    links.className = "nav-links"
+    items.className = "nav-items"
   }
 });
