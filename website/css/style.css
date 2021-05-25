@@ -8,10 +8,12 @@ html, body{
     scroll-behavior: smooth;
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
+    position: relative;
 }
 
 * {  
-  text-rendering: optimizeSpeed;  
+    text-rendering: optimizeSpeed;  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -84,7 +86,6 @@ nav .icon:hover {
 }
 
 .all-con{
-  display: grid;
   padding: 0;
 }
 
@@ -99,7 +100,7 @@ nav .icon:hover {
 }
 
 
-@media (min-width: 600px){
+@media (min-width: 700px){
     .nav-items {
       transform: translateY(0px);
       height: fit-content;
