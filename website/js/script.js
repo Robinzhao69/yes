@@ -5,9 +5,10 @@ let state = false;
 
 navButton.addEventListener("click", () => {
   if(items.className === "nav-items") {
-    items.className = "nav-items active"
+    items.className = "nav-items active";
     console.log("yes");
   } else {
-    items.className = "nav-items"
+    items.className = "nav-items";
   }
 });
+

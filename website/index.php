@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="css/start.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <script type="module" src="js/script.js" defer></script>
+    <script type="module" src="js/request.js" defer></script>
 
 </head>
 <body>
-    <!-- navbar -->
     <div class="nav-parent">
         <nav>
             
@@ -42,8 +42,12 @@
             </div>
 
             <div class="plaatje">
-                <img src="./foto's/gele-eend.png" alt="">
+                <img src="./foto's/product1.png" alt="">
             </div>
+        </div>
+
+        <div class="product-slider">
+        
         </div>
 
         <!-- sidebar -->
