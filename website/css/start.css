@@ -3,6 +3,7 @@
     background: radial-gradient(rgba(147, 194, 194, 0),aqua);
     width: 100%;
     height: 100vh; 
+    margin-bottom: 100px;
 }
 
 .tekst{
@@ -31,13 +32,13 @@
     margin-top: 20px;
     border-radius: 15px;
     padding: 7px 20px;
-    background: radial-gradient(rgb(206, 169, 50), rgb(209, 138, 7));
+    background: radial-gradient(rgb(226, 180, 28), rgb(255, 189, 68));
     transition: transform 100ms linear;
 }
 
 .tekst > a:hover{
     cursor: pointer;
-    background: rgb(173, 121, 8);
+    background: rgb(199, 141, 15);
     transform: scale(1.1)  
 }
 

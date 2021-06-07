@@ -7,15 +7,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/start.css">
+    <link rel="stylesheet" href="css/product-slider.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <script type="module" src="js/script.js" defer></script>
     <script type="module" src="js/request.js" defer></script>
+    <script type="module" src="js/slider.js" defer></script>
 
 </head>
 <body>
     <div class="nav-parent">
-        <nav>
-            
+        <nav>          
             <div class="icon">
                 <i class="fa fa-bars"></i>
             </div>
@@ -46,8 +47,52 @@
             </div>
         </div>
 
-        <div class="product-slider">
-        
+        <h1 class="slide-titel">populaire producten</h1>
+        <div class="product-slider">            
+            <img id="slide-left" class="arrow" src="./foto's/arrow-left.png">
+            <div class="viewmodel" id="slider">
+                <div class="product-card">
+                    <img src="./foto's/product1.png" alt="">
+                    <div class="product-details">
+                        <h2>rubber eend</h2> 
+                        <p class="price">19,99</p> 
+                        <a href='#'>Add to cart</a>
+                    </div>            
+                </div>
+                <div class="product-card">
+                    <img src="./foto's/product1.png" alt="">
+                    <div class="product-details">
+                        <h2>rubber eend</h2> 
+                        <p class="price">19,99</p> 
+                        <a href='#'>Add to cart</a>
+                    </div>            
+                </div>
+                <div class="product-card">
+                    <img src="./foto's/product1.png" alt="">
+                    <div class="product-details">
+                        <h2>rubber eend</h2> 
+                        <p class="price">19,99</p> 
+                        <a href='#'>Add to cart</a>
+                    </div>            
+                </div>
+                <div class="product-card">
+                    <img src="./foto's/product1.png" alt="">
+                    <div class="product-details">
+                        <h2>rubber eend</h2> 
+                        <p class="price">19,99</p> 
+                        <a href='#'>Add to cart</a>
+                    </div>            
+                </div>
+                <div class="product-card">
+                    <img src="./foto's/product1.png" alt="">
+                    <div class="product-details">
+                        <h2>rubber eend</h2> 
+                        <p class="price">19,99</p> 
+                        <a href='#'>Add to cart</a>
+                    </div>            
+                </div>
+            </div>
+            <img id="slide-right" class="arrow" src="./foto's/arrow-right.png">
         </div>
 
         <!-- sidebar -->
