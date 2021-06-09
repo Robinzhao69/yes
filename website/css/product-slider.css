@@ -38,6 +38,7 @@
   }
 
 .product-card{
+    max-width: 300px;
     flex: 0 0 auto;
 	object-fit: cover;
 	cursor: pointer;
@@ -49,7 +50,7 @@
 }
 
 .product-card:hover{
-    transform: scale(1);
+    transform: scale(.97);
 }
 
 .product-details {
@@ -72,6 +73,10 @@
     background-color: rgb(46, 209, 209);
     border-radius: 60px;
     font-weight: 600;
+}
+
+.product-details > a:hover{
+    background-color: rgb(29, 179, 179);
 }
 
 .product-card > img{

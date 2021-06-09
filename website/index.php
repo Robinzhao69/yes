@@ -22,7 +22,7 @@
             </div>
         </nav>
         <ul class="nav-items">
-            <img src="./foto's/unnamed.jpg" alt="">
+            <img src="./foto/unnamed.jpg" alt="">
             <div class="nav-links">
                 <a href="#"><li>Home</li></a>
                 <a href="#"><li>Cart</li></a>
@@ -43,16 +43,16 @@
             </div>
 
             <div class="plaatje">
-                <img src="./foto's/product1.png" alt="">
+                <img src="./foto/product1.png" alt="">
             </div>
         </div>
 
         <h1 class="slide-titel">populaire producten</h1>
         <div class="product-slider">            
-            <img id="slide-left" class="arrow" src="./foto's/arrow-left.png">
+            <img id="slide-left" class="arrow" src="./foto/arrow-left.png">
             <div class="viewmodel" id="slider">
                 <div class="product-card">
-                    <img src="./foto's/product1.png" alt="">
+                    <img src="./foto/product1.png" alt="">
                     <div class="product-details">
                         <h2>rubber eend</h2> 
                         <p class="price">19,99</p> 
@@ -60,7 +60,7 @@
                     </div>            
                 </div>
                 <div class="product-card">
-                    <img src="./foto's/product1.png" alt="">
+                    <img src="./foto/product1.png" alt="">
                     <div class="product-details">
                         <h2>rubber eend</h2> 
                         <p class="price">19,99</p> 
@@ -68,7 +68,7 @@
                     </div>            
                 </div>
                 <div class="product-card">
-                    <img src="./foto's/product1.png" alt="">
+                    <img src="./foto/unnamed.jpg" alt="">
                     <div class="product-details">
                         <h2>rubber eend</h2> 
                         <p class="price">19,99</p> 
@@ -76,7 +76,7 @@
                     </div>            
                 </div>
                 <div class="product-card">
-                    <img src="./foto's/product1.png" alt="">
+                    <img src="./foto/product1.png" alt="">
                     <div class="product-details">
                         <h2>rubber eend</h2> 
                         <p class="price">19,99</p> 
@@ -84,7 +84,7 @@
                     </div>            
                 </div>
                 <div class="product-card">
-                    <img src="./foto's/product1.png" alt="">
+                    <img src="./foto/product1.png" alt="">
                     <div class="product-details">
                         <h2>rubber eend</h2> 
                         <p class="price">19,99</p> 
@@ -92,7 +92,7 @@
                     </div>            
                 </div>
             </div>
-            <img id="slide-right" class="arrow" src="./foto's/arrow-right.png">
+            <img id="slide-right" class="arrow" src="./foto/arrow-right.png">
         </div>
 
         <!-- sidebar -->
